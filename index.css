@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;       
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: dimgray;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin-bottom: 0px; 
+    }
+   main.cuerpo{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+   
+    }
+    main.cuerpo .left_Side
+    {
+    position: relative;
+    padding: 40px;
+    }
+    main.cuerpo .right_Side{
+    position: relative;
+    padding: 40px;
+    }
+    main.cuerpo{
+    display: flex;
+
+    }
+    aside.barralateralderrecha{
+     background-color: #536af0;  
+     flex: 2 1 2%;        
+    }      
+    article.bloque1{
+    background-color: lightsteelblue;
+    display: flex;  
+    flex: 2 1 30%;                     
+    }
+    article.bloque2{
+    background-color: #f2f1f3;  
+    display: flex; 
+    flex: 2 1 70%;          
+    } 
+    div.imagen2{
+    position: absolute;
+    top:2%;
+    left:9%;
+    }       
+    div.nombre1{
+    font-size: 0.5cm;
+    margin-top:170px;   
+    text-transform: uppercase;
+    color: #536af0;
+    }
+    div.icono-de-nombre{
+    position: absolute;
+    margin-top:220px;
+    left:2%; 
+    }
+    div.mi-nombre{
+    position: absolute;
+    left:7%; 
+    font-size: 0.3cm;
+    margin-top:230px;   
+    }
+    div.icono-de-correo{
+    position: absolute;
+    margin-top:270px;
+    left:3%; 
+    }
+    div.mi-correo{
+    position: absolute;
+    left:7%; 
+    font-size: 0.3cm;
+    margin-top:275px;   
+    }
+    div.icono-de-telefono{
+    position: absolute;
+    margin-top:310px;
+    left:3%; 
+    }
+    div.mi-telefono{
+    position: absolute;
+    left:7%; 
+    font-size: 0.3cm;
+    margin-top:315px;   
+    }
+    div.icono-de-domicilio{
+    position: absolute;
+    margin-top:350px;
+    left:3%; 
+           }
+    div.mi-domicilio{
+    position: absolute;
+    left:7%; 
+    font-size: 0.3cm;
+    margin-top:360px;   
+    }
+    div.competencias{
+    position: absolute;
+    left:4%; 
+    margin-top:410px;
+    font-size: 0.5cm;      
+    text-transform: uppercase;
+    color: #536af0;   
+    }
+    div.Computación{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 460px;   
+    }
+    div.Computación-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 466px;   
+    }
+    div.chofer{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 500px;   
+    }
+     div.Conducción-barra{
+     position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 506px;   
+    } 
+    div.Cocina{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 540px;   
+    }
+    div.Cocina-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 546px;   
+    } 
+    div.puntualidad{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 580px;   
+    }
+    div.Puntualidad-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 586px;   
+    }
+    div.idiomas{
+    position: absolute;
+    left:10%; 
+    margin-top:650px;
+    font-size: 0.5cm;      
+    text-transform: uppercase;
+    color: #536af0;   
+    }
+    div.español{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 700px;   
+    }
+    div.español-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 706px;   
+    }
+    div.ingles{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 740px;   
+    }
+    div.ingles-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 746px;   
+    } 
+    div.italiano{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 780px;   
+    }
+    div.italiano-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 786px;   
+    } 
+    div.frances{
+    position: absolute;
+    left:3%; 
+    font-size: 0.4cm;
+    margin-top: 820px;   
+    }
+    div.frances-barra{
+    position: absolute;
+    left:14%; 
+    font-size: 0.4cm;
+    margin-top: 826px;   
+    }
+    div.nombre-completo{
+    position: absolute;
+    left:33%; 
+    font-size: 0.5cm;
+    margin-top: 60px;
+    text-transform: uppercase; 
+    }
+    div.perfil{
+    position: absolute;
+    left:33%; 
+    font-size: 0.4cm;
+    margin-top: 170px;
+    color: #536af0;
+    }
+    div.h1{
+    position: absolute;
+    margin-top: 192px;
+    font-size: 0.2cm;
+    
+    } 
+    div.parrafo{
+    position: absolute;
+    left:33%; 
+    font-size: 0.5cm;
+    margin-top: 220px;
+    }
+    div.experiancia{
+    position: absolute;
+    left:33%; 
+    font-size: 0.4cm;
+    margin-top: 410px;
+    color: #536af0;
+    }
+    div.h2{
+    position: absolute;
+    margin-top: 430px;
+    font-size: 0.2cm;    
+    } 
+    div.trabajos{
+    position: absolute;
+    margin-top: 490px;
+    font-size: 0.7cm; 
+    left:42%;    
+    } 
+    div.formacion{
+    position: absolute;
+    left:33%; 
+    font-size: 0.4cm;
+    margin-top: 640px;
+    color: #536af0;
+    }
+    div.h3{
+    position: absolute;
+    margin-top: 667px;
+    font-size: 0.2cm;    
+    } 
+    div.estudios{
+    position: absolute;
+    margin-top: 730px;
+    font-size: 0.7cm; 
+    left:42%;    
+    } 
